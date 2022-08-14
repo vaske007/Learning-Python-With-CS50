@@ -7,6 +7,12 @@
 x = float(input("What's x? ")) # Input function gets called first and then the result of that becomes the input to the float function
 y = float(input("What's y? ")) # Input function gets called first and then the result of that becomes the input to the float function
 
-z = round(x +y)
+# First way to print
+# z = round(x / y, 2) # Rounds up, not to the nearest integer, but the nearest number of digits.
 
-print(f"{z: ,}") # Puts a comma every three numbers
+# print(z)
+
+# Second way to print
+z = x / y
+
+print(f"{z:.2f}") # Does the same thing as the first way
