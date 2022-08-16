@@ -3,16 +3,15 @@
 # 'float' allows you to type in numbers with decimal points as well. Can't have infinite decimals. 
 # In programming in general, if something is in square brackets '[]', it means it's optional.
 # The 'round' function rounds up the number to the nearest integer
+# The 'return' function returns the value to us
 
-x = float(input("What's x? ")) # Input function gets called first and then the result of that becomes the input to the float function
-y = float(input("What's y? ")) # Input function gets called first and then the result of that becomes the input to the float function
+def main():
+    x = int(input("What's x? "))
+    print("x sqaured is", square(x))
 
-# First way to print
-# z = round(x / y, 2) # Rounds up, not to the nearest integer, but the nearest number of digits.
+def square(n):
+    return n * n # We have made a function which squares the number entered by the user, and then returns the value to us.
 
-# print(z)
 
-# Second way to print
-z = x / y
 
-print(f"{z:.2f}") # Does the same thing as the first way
+main()
