@@ -1,2 +1,4 @@
 Conditional or conditional statements, are the ability to ask questions and answer thoose questions, in order to decide which line of code you want to run.
 The if statement asks a queastion, and if it is true, it does what it's told.
+The statement elif, stands for else if, in English, which allows us to ask a question that takes into account whether or not a previous answer a true or false answer.
+The else statement does the same thing as the elif statement, if the code before it is false it runs, just without asking a quesiton which is why it is always where the last elif would have been. The fact that it doesn't ask a question means that it also runs faster.
